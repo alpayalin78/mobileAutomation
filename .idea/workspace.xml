@@ -4,23 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac176c81-fc96-47f0-9cb3-0b47e3abbba2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ac176c81-fc96-47f0-9cb3-0b47e3abbba2" name="Changes" comment="Project starts.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AndroidActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AppiumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/TestUtils/AndroidBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/TestUtils/ExtentReporterNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/TestUtils/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/findvideos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2iMc40hRVSTcU1eiRQXWDiWmBS9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,9 +48,77 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.findvideos.FillForm_ErrorValidation.executor": "Debug",
+    "TestNG.findvideos.executor": "Debug",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/mobileAutomation/mobileAutomation/src/test/java/org.mobileautomationalpay",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mobileAutomation\mobileAutomation\src\test\java\org.mobileautomationalpay" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.findvideos">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mobileAutomation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mobileAutomation" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findvideos" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mobileautomationalpay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mobileautomationalpay" />
+      <option name="MAIN_CLASS_NAME" value="org.mobileautomationalpay.findvideos" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findvideos.FillForm_ErrorValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mobileautomationalpay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mobileautomationalpay" />
+      <option name="MAIN_CLASS_NAME" value="org.mobileautomationalpay.findvideos" />
+      <option name="METHOD_NAME" value="FillForm_ErrorValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.findvideos" />
+        <item itemvalue="TestNG.findvideos.FillForm_ErrorValidation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +128,61 @@
       <option name="presentableId" value="Default" />
       <updated>1719303694660</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project starts.">
+      <option name="closed" value="true" />
+      <created>1719304115897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719304115897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project starts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project starts." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/findvideos.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/findvideos.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/TestUtils/AndroidBaseTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/findvideos.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.appium.java_client.android.options.UiAutomator2Options" memberName="caps" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
