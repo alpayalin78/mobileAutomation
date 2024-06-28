@@ -1,15 +1,8 @@
 package org.mobileautomationalpay.TestUtils;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import io.appium.java_client.AppiumDriver;
-import mobileautomationalpay.utils.AppiumUtils;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import java.io.IOException;
 
 public class Listeners implements ITestListener{
 //	ExtentTest test;

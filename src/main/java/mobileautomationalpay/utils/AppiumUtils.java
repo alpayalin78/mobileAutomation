@@ -15,12 +15,12 @@ public abstract class AppiumUtils {
 
     public AppiumDriverLocalService service;
 
-    public AppiumDriverLocalService startAppiumServer(String ipAddress, int port) {
-        service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\alpay\\AppData\\Roaming\\npm\\node_modules\\appium-uiautomator2-driver\\build\\index.js"))
-                .withIPAddress(ipAddress).usingPort(port).build();
-        service.start();
-        return service;
-    }
+//    public AppiumDriverLocalService startAppiumServer(String ipAddress, int port) {
+////        service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\alpay\\AppData\\Roaming\\npm\\node_modules\\appium-uiautomator2-driver\\build\\index.js"))
+////                .withIPAddress(ipAddress).usingPort(port).build();
+////        service = AppiumDriverLocalService.buildDefaultService();
+////        return service;
+//    }
 
 
     public void waitForElementToAppear(WebElement ele, AppiumDriver driver) {

@@ -1,4 +1,4 @@
-package mobileautomationalpay.pageObjects.android;
+package mobileautomationalpay.pages.android;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -31,8 +31,6 @@ public class ProfilePage extends AndroidActions {
     }
 
     public void acceptTermsConditions() {
-        longPressAction(terms);
-        acceptButton.click();
     }
 
 }

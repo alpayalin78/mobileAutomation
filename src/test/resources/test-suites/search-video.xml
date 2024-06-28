@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="search-video">
+    <test name="one-key">
+        <parameter name="testDataPath" value="test-data/search-video/one_key_search.json" />
+        <classes>
+            <class name="org.mobileautomationalpay.tests.searchvideo.SearchVideo"/>
+        </classes>
+    </test>
+    <test name="two-key">
+        <parameter name="testDataPath" value="test-data/search-video/two_key_search.json" />
+        <classes>
+            <class name="org.mobileautomationalpay.tests.searchvideo.SearchVideo"/>
+        </classes>
+    </test>
+    <test name="three-key">
+        <parameter name="testDataPath" value="test-data/search-video/three_key_search.json" />
+        <classes>
+            <class name="org.mobileautomationalpay.tests.searchvideo.SearchVideo"/>
+        </classes>
+    </test>
+</suite>
