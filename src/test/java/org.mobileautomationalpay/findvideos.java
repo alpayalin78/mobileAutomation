@@ -1,7 +1,10 @@
 package org.mobileautomationalpay;
 
 import io.appium.java_client.TouchAction;
+import mobileautomationalpay.utils.AndroidActions;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -11,6 +14,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Collections;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.touch.WaitOptions;
@@ -30,16 +34,20 @@ public class findvideos extends AndroidBaseTest {
         driver.findElement(By.xpath("//android.widget.TextView[@content-desc='YouTube']")).click();
         driver.findElement(By.xpath("//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")).click();
 
-        Dimension dimension = driver.manage().window().getSize()
-        int starting_point_x = (int) (dimension.width * 0.5)
-        int starting_point_y = (int) (dimension.height * 0.5)
-        int end_point_x = (int) (dimension.width * 0.5)
-        int end_point_y = (int) (dimension.height * 0.9)
-
-//        TouchAction touch = new TouchAction(driver);
-//        touch.press(PointOption.point(starting_point_x, starting_point_y))
-//                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
-//                .moveTo(PointOption.point(end_point_x, end_point_y)).release().perform();
+//        Dimension dimension = driver.manage().window().getSize();
+//        int starting_point_x = (int) (dimension.width * 0.5);
+//        int starting_point_y = (int) (dimension.height * 0.9);
+//        int end_point_x = (int) (dimension.width * 0.5);
+//        int end_point_y = (int) (dimension.height * 0.1);
+//
+//        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+//        Sequence swipe = new Sequence(finger, 5);
+//        swipe.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), starting_point_x, starting_point_y));
+//        swipe.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+//        swipe.addAction(finger.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), end_point_x, end_point_y));
+//        swipe.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+//
+//        driver.perform(Collections.singletonList(swipe));
 
 //        WebElement source = (MobileElement) driver.findElementsByAccessibilityId("SomeAccessibilityID");
 //        WebElement target = (MobileElement) driver.findElementsByAccessibilityId("SomeOtherAccessibilityID");

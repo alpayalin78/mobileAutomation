@@ -1,12 +1,12 @@
 package org.mobileautomationalpay.TestUtils;
-
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import mobileautomationalpay.utils.AppiumUtils;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.testng.annotations.AfterTest;
-import io.appium.java_client.android.options.UiAutomator2Options;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
@@ -24,22 +24,11 @@ public class AndroidBaseTest extends AppiumUtils {
         String ipAddress = System.getProperty("ipAddress") != null ? System.getProperty("ipAddress") : prop.getProperty("ipAddress");
         System.out.println(ipAddress);
         prop.load(fis);
-        //String ipAddress = prop.getProperty("ipAddress");
         String port = prop.getProperty("port");
 
-//		service = startAppiumServer(ipAddress,Integer.parseInt(port));
-//        service = AppiumDriverLocalService.buildDefaultService();
-//        service.start();
-
-        //options.setDeviceName("Android Device");// real device
-//			options.setChromedriverExecutable("//Users//rahulshetty//documents//chromedriver 11");
-//        options.setApp("D:/mobileAutomation/mobileAutomation/src/test/java/org.mobileautomationalpay/resources/General-Store.apk");
-//        UiAutomator2Options options = new UiAutomator2Options();
         DesiredCapabilities options = new DesiredCapabilities();
 
         options.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UIAutomator2");
-//        options.setCapability(MobileCapabilityType.APP, "D:/mobileAutomation/mobileAutomation/src/test/java/org.mobileautomationalpay/resources/General-Store.apk");
-//        options.setCapability("appPackage", "com.google.android.apps.nexuslauncher");
         options.setCapability("noReset", false);
         options.setCapability("autoGrantPermissions", "true");
         options.setCapability("appWaitActivity", "*");
@@ -47,6 +36,8 @@ public class AndroidBaseTest extends AppiumUtils {
         driver = new AndroidDriver(new URL("http://localhost:4721"), options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         System.out.println(driver.getSessionId());
+
+        driver.pressKey(new KeyEvent(AndroidKey.HOME));
 
     }
 
