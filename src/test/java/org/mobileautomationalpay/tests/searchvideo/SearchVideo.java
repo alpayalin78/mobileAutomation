@@ -31,6 +31,7 @@ public class SearchVideo extends
 
     @Test
     public void SearchVideo() throws InterruptedException {
+        this.mainPage.go_to_main_page();
         // MainPage nesnesi oluşturulur.
         // searchVideo, fonksiyonu çağırılır.
         // aratıla metin, return edilen video başlıkları çerisinde var mı, kaç video çekilsin ve kaçının başlığında aratılan kelime var.

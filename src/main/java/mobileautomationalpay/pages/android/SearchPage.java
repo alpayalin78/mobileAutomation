@@ -19,7 +19,7 @@ public class SearchPage extends AndroidActions{
     public SearchPage(AndroidDriver driver) {
         super(driver);
         this.driver = driver;
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+//        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
     public void searchVideo(String searching_text, Integer video_quantity_to_be_checked) {

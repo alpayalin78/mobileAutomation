@@ -11,32 +11,36 @@ import org.openqa.selenium.support.PageFactory;
 public class ShortsPage extends AndroidActions {
     AndroidDriver driver;
 
-    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")
-    private WebElement shorts_button;
+    @AndroidFindBy(xpath="//android.widget.ImageView[@content-desc=\"More\"]")
+    private WebElement three_dot_right_upper_corner;
 
-    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")
+    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id=\"com.google.android.youtube:id/list_item_text\" and @text=\"Save to playlist\"]")
+    private WebElement three_dot_save_play_to_playlist;
+
+    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id=\"com.google.android.youtube:id/list_item_text\" and @text=\"Description\"]")
+    private WebElement three_dot_description;
+
+    @AndroidFindBy(xpath="//android.widget.ImageView[@content-desc=\"Search\"]")
+    private WebElement search_button;
+
+    @AndroidFindBy(id="com.google.android.youtube:id/reel_dyn_like")
     private WebElement like_button;
 
-    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")
+    @AndroidFindBy(id="com.google.android.youtube:id/reel_dyn_dislike")
     private WebElement down_like_button;
 
-    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")
+    @AndroidFindBy(id="com.google.android.youtube:id/reel_dyn_comment")
     private WebElement comment_button;
 
-    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")
-    private WebElement subscribe_button;
+    @AndroidFindBy(id="com.google.android.youtube:id/reel_dyn_share")
+    private WebElement share_button;
 
-    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")
-    private WebElement account_visit_button;
-
-    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")
-    private WebElement share_reel_button;
 
     public ShortsPage(AndroidDriver driver) {
         super(driver);
         this.driver = driver;
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
-        shorts_button.click();
+//        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+//        shorts_button.click();
     }
 //    driver.findElement(By.xpath("//android.widget.TextView[@content-desc='YouTube']")).click();
 //    driver.findElement(By.xpath("//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")).click();
