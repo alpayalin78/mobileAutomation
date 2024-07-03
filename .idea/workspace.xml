@@ -4,45 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac176c81-fc96-47f0-9cb3-0b47e3abbba2" name="Changes" comment="Some of Page object model part has been added.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/ResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/leavecomment/LeaveComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/leavecomment/model/LeaveCommentTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/reactiontoshorts/ReactionToShorts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/reactiontoshorts/model/ReactionToShortsTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchspecificvideo/SearchSpecificVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchspecificvideo/model/SearchSpecificVideoTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchvideo/SearchVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchvideo/model/SearchVideoTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/subscribechannels/SubscribeChannels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/subscribechannels/model/SubscribeChannelsTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/search-video/one_key_search.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/search-video/three_key_search.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/search-video/two_key_search.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test-suites/main-page.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test-suites/search-video.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test-suites/shorts-page.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test-suites/subscription-page.xml" afterDir="false" />
+    <list default="true" id="ac176c81-fc96-47f0-9cb3-0b47e3abbba2" name="Changes" comment="Locators have been added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pageObjects/android/MainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pageObjects/android/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/ProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pageObjects/android/ShortsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/ShortsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pageObjects/android/SubscriberPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SubscriberPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pageObjects/android/SubscriptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SubscriptionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AndroidActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AndroidActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AppiumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AppiumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/TestUtils/AndroidBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/AndroidBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/TestUtils/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/ExtentReporterNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/TestUtils/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/findvideos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/reaction_to_shorts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/search_specific_video.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org.mobileautomationalpay/subscribe_channels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/AndroidBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/AndroidBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchvideo/SearchVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchvideo/SearchVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test-suites/search-video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test-suites/search-video.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,21 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.SearchVideo.executor": "Debug",
-    "TestNG.findvideos.FillForm_ErrorValidation.executor": "Debug",
-    "TestNG.findvideos.executor": "Debug",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/mobileAutomation/mobileAutomation/src/test/java/org/mobileautomationalpay/tests/leavecomment",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/mobileAutomation/mobileAutomation/src/test/resources/test-suites/search-video.xml.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.SearchVideo.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.findvideos.FillForm_ErrorValidation.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.findvideos.executor&quot;: &quot;Debug&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/mobileAutomation/mobileAutomation/src/test/java/org/mobileautomationalpay/tests/leavecomment&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mobileAutomation\mobileAutomation\src\test\java\org\mobileautomationalpay\tests\leavecomment" />
@@ -100,7 +72,7 @@
       <recent name="org.mobileautomationalpay.tests.leavecomment" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchVideo">
+  <component name="RunManager" selected="TestNG.D:/mobileAutomation/mobileAutomation/src/test/resources/test-suites/search-video.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="mobileAutomation" />
       <method v="2">
@@ -110,6 +82,16 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="mobileAutomation" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/mobileAutomation/mobileAutomation/src/test/resources/test-suites/search-video.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/test-suites/search-video.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/mobileAutomation/mobileAutomation/src/test/resources/test-suites/search-video.xml" />
         <item itemvalue="TestNG.SearchVideo" />
         <item itemvalue="TestNG.search_video" />
         <item itemvalue="TestNG.search_video.FillForm_ErrorValidation" />
@@ -207,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719568917077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Parametrizing methods have been added.">
+      <option name="closed" value="true" />
+      <created>1719594883389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719594883389</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Locators have been added.">
+      <option name="closed" value="true" />
+      <created>1719872795012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719872795012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +224,9 @@
     <MESSAGE value="Project starts." />
     <MESSAGE value="Basics are integrated." />
     <MESSAGE value="Some of Page object model part has been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some of Page object model part has been added." />
+    <MESSAGE value="Parametrizing methods have been added." />
+    <MESSAGE value="Locators have been added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Locators have been added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,9 +257,24 @@
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/AndroidBaseTest.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/MainPage.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/MainPage.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SearchPage.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SearchPage.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

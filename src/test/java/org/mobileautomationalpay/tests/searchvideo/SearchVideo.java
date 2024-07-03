@@ -2,12 +2,9 @@ package org.mobileautomationalpay.tests.searchvideo;
 
 import org.mobileautomationalpay.TestUtils.JsonUtil;
 import org.mobileautomationalpay.tests.searchvideo.model.SearchVideoTestData;
-import io.appium.java_client.AppiumBy;
 import mobileautomationalpay.pages.android.MainPage;
 import mobileautomationalpay.pages.android.SearchPage;
 import org.mobileautomationalpay.TestUtils.AndroidBaseTest;
-import org.openqa.selenium.By;
-import org.testng.AssertJUnit;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -22,7 +19,7 @@ public class SearchVideo extends
 
     @BeforeTest
     @Parameters("testDataPath")
-    public void setPageObjects(String testDataPath) throws IOException {
+    public void setPageObjects(String testDataPath) throws IOException, InterruptedException {
         this.mainPage = new MainPage(driver);
         this.searchPage = new SearchPage(driver);
         this.testData = JsonUtil.getTestData(testDataPath, SearchVideoTestData.class);
@@ -31,7 +28,9 @@ public class SearchVideo extends
 
     @Test
     public void SearchVideo() throws InterruptedException {
-        this.mainPage.go_to_main_page();
+        this.searchPage.searchVideo("Galatasaray", 1, 2);
+
+
         // MainPage nesnesi oluşturulur.
         // searchVideo, fonksiyonu çağırılır.
         // aratıla metin, return edilen video başlıkları çerisinde var mı, kaç video çekilsin ve kaçının başlığında aratılan kelime var.

@@ -11,6 +11,7 @@ import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.support.PageFactory;
 
 import java.time.Duration;
 import java.util.Collections;
@@ -20,7 +21,6 @@ public class AndroidActions extends mobileautomationalpay.utils.AppiumUtils {
     AndroidDriver driver;
 
     public AndroidActions(AndroidDriver driver) {
-
         this.driver = driver;
     }
 

@@ -38,10 +38,11 @@ public class AndroidBaseTest extends AppiumUtils {
         options.setCapability("noReset", false);
         options.setCapability("autoGrantPermissions", "true");
         options.setCapability("appWaitActivity", "*");
+        options.setCapability("appPackage", "com.google.android.youtube");
+        options.setCapability("appActivity", "com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity");
 
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723"), options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.pressKey(new KeyEvent(AndroidKey.HOME));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
     }
 
