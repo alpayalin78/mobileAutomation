@@ -22,11 +22,4 @@ public abstract class AppiumUtils {
 ////        return service;
 //    }
 
-
-//    public void waitForElementToAppear(WebElement ele, AppiumDriver driver) {
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-//        wait.until(ExpectedConditions.attributeContains((ele), "text", "Cart"));
-//    }
-
-
 }

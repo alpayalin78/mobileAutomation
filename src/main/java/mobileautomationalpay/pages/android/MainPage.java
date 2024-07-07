@@ -31,7 +31,7 @@ public class MainPage extends AndroidActions {
     public MainPage(AndroidDriver driver) throws InterruptedException {
         super(driver);
         this.driver = driver;
-        go_to_main_page();
+//        go_to_main_page();
     }
 
     public void go_to_account_page(){
@@ -43,8 +43,7 @@ public class MainPage extends AndroidActions {
     }
 
     public void go_to_main_page() throws InterruptedException {
-        Thread.sleep(10000);
-        this.driver.findElement(main_page_button).click();
+        this.find_element(main_page_button).click();
     }
 
 

@@ -1,17 +1,17 @@
 package mobileautomationalpay.utils;
 
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.remote.RemoteWebElement;
-
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.support.PageFactory;
 
 import java.time.Duration;
 import java.util.Collections;
@@ -30,6 +30,11 @@ public class AndroidActions extends mobileautomationalpay.utils.AppiumUtils {
                         "duration", 2000));
     }
 
+    public WebElement find_element(By locator) throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+        return this.driver.findElement(locator);
+    }
 
     public void scrollToEndAction() {
         boolean canScrollMore;
@@ -65,7 +70,8 @@ public class AndroidActions extends mobileautomationalpay.utils.AppiumUtils {
             float starting_point_y_v,
             float end_point_x_v,
             float end_point_y_v
-    ) {
+    ) throws InterruptedException {
+        Thread.sleep(2000);
         Dimension dimension = driver.manage().window().getSize();
         int starting_point_x = (int) (dimension.width * starting_point_x_v);
         int starting_point_y = (int) (dimension.height * starting_point_y_v);
