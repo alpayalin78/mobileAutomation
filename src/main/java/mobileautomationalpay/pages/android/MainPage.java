@@ -43,7 +43,7 @@ public class MainPage extends AndroidActions {
     }
 
     public void go_to_main_page() throws InterruptedException {
-        this.find_element(main_page_button).click();
+        this.find_element(main_page_button, false).click();
     }
 
 

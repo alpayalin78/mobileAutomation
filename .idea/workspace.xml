@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac176c81-fc96-47f0-9cb3-0b47e3abbba2" name="Changes" comment="Scrolling, clicking to the subscriber pages are added..">
+    <list default="true" id="ac176c81-fc96-47f0-9cb3-0b47e3abbba2" name="Changes" comment="07/08/24 additions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AndroidActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AndroidActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AppiumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileautomationalpay/utils/AppiumUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/AndroidBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/AndroidBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/ExtentReporterNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/TestUtils/Listeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchvideo/SearchVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchvideo/SearchVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test-suites/search-video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test-suites/search-video.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720045517814</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="07/08/24 additions.">
+      <option name="closed" value="true" />
+      <created>1720389710788</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720389710788</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +246,8 @@
     <MESSAGE value="Parametrizing methods have been added." />
     <MESSAGE value="Locators have been added." />
     <MESSAGE value="Scrolling, clicking to the subscriber pages are added.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Scrolling, clicking to the subscriber pages are added.." />
+    <MESSAGE value="07/08/24 additions." />
+    <option name="LAST_COMMIT_MESSAGE" value="07/08/24 additions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -272,17 +286,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/MainPage.java</url>
           <line>37</line>
           <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mobileautomationalpay/pages/android/SearchPage.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/test/java/org/mobileautomationalpay/tests/searchvideo/SearchVideo.java</url>
-          <line>17</line>
-          <properties field="searchPage" class="org.mobileautomationalpay.tests.searchvideo.SearchVideo" />
-          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

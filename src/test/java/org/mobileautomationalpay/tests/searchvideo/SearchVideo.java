@@ -1,40 +1,38 @@
 package org.mobileautomationalpay.tests.searchvideo;
-
 import org.mobileautomationalpay.TestUtils.JsonUtil;
 import org.mobileautomationalpay.tests.searchvideo.model.SearchVideoTestData;
-//import mobileautomationalpay.pages.android.MainPage;
 import mobileautomationalpay.pages.android.SearchPage;
 import org.mobileautomationalpay.TestUtils.AndroidBaseTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import java.util.ArrayList;
-
 import java.io.IOException;
+
 
 public class SearchVideo extends
         AndroidBaseTest {
-//    private MainPage mainPage;
     private SearchPage searchPage;
     private SearchVideoTestData testData;
+    private String uuid_to;
 
     @BeforeTest
     @Parameters("testDataPath")
     public void setPageObjects(String testDataPath) throws IOException, InterruptedException {
-//        this.mainPage = new MainPage(driver);
         this.searchPage = new SearchPage(driver);
         this.testData = JsonUtil.getTestData(testDataPath, SearchVideoTestData.class);
+        this.uuid_to = uuid;
     }
 
 
     @Test
-    public void SearchVideo() throws InterruptedException {
+    public void SearchVideo() throws InterruptedException, IOException {
         ArrayList<String> teams = new ArrayList<>();
+
         teams.add("Galatasaray");
         teams.add("Fenerbahçe");
         teams.add("Beşiktaş");
-        this.searchPage.searchVideo(teams, 2, 2);
-
+        this.searchPage.searchVideo(teams, 1, 1, this.uuid_to);
 
         // MainPage nesnesi oluşturulur.
         // searchVideo, fonksiyonu çağırılır.

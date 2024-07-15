@@ -30,9 +30,16 @@ public class AndroidActions extends mobileautomationalpay.utils.AppiumUtils {
                         "duration", 2000));
     }
 
-    public WebElement find_element(By locator) throws InterruptedException {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+    public WebElement find_element(By locator, boolean display_mode) throws InterruptedException {
+        if(display_mode) {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+            wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+        }
+        else {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+            wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+        }
+
         return this.driver.findElement(locator);
     }
 

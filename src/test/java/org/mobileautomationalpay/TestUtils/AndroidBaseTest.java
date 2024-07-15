@@ -20,9 +20,11 @@ public class AndroidBaseTest extends AppiumUtils {
 
     protected AndroidDriver driver;
     public AppiumDriverLocalService service;
+    public String uuid;
 
     @BeforeTest
     public void ConfigureAppium() throws IOException {
+        uuid = uuid_generator();
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "//src//main//resources//data.properties");
         String ipAddress = System.getProperty("ipAddress") != null ? System.getProperty("ipAddress") : prop.getProperty("ipAddress");
