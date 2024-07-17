@@ -1,12 +1,7 @@
 package mobileautomationalpay.pages.android;
-
-import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import mobileautomationalpay.utils.AndroidActions;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -33,7 +28,6 @@ public class SearchPage extends AndroidActions {
     public void scrollElementIntoView(Integer index_video) throws InterruptedException {
         int maxScrollAttempts = 5;
         int scrollAttempts = 0;
-        boolean elementFound = false;
         Integer index_video_ts = 1;
         String search_result_video = String.format("//android.widget.ImageView[@content-desc='Go to channel'][%s]", index_video_ts);
         By search_result_video_locator = By.xpath(search_result_video);

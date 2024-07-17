@@ -11,9 +11,6 @@ import org.openqa.selenium.support.PageFactory;
 public class SubscriptionPage extends AndroidActions {
     AndroidDriver driver;
 
-    @AndroidFindBy(xpath="//android.widget.TextView[@resource-id='com.google.android.youtube:id/text' and @text='Shorts']")
-    private WebElement all_subscriptions_button;
-
     public SubscriptionPage(AndroidDriver driver) {
         super(driver);
         this.driver = driver;

@@ -36,7 +36,7 @@ public class AndroidActions extends mobileautomationalpay.utils.AppiumUtils {
             wait.until(ExpectedConditions.presenceOfElementLocated(locator));
         }
         else {
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(75));
             wait.until(ExpectedConditions.presenceOfElementLocated(locator));
         }
 
@@ -93,7 +93,7 @@ public class AndroidActions extends mobileautomationalpay.utils.AppiumUtils {
         swipe.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
 
         driver.perform(Collections.singletonList(swipe));
-
+        Thread.sleep(4000);
 
     }
 
